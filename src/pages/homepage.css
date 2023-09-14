@@ -1,0 +1,9 @@
+.cart-home{
+    width: 100%;
+    top: 58px;
+    z-index: 0;
+}
+.cards-cont{
+    display: flex;
+    flex-wrap: wrap;
+}
