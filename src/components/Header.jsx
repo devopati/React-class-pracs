@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 const Header = ({ cartClicked, totalItems }) => {
   return (
@@ -7,9 +8,10 @@ const Header = ({ cartClicked, totalItems }) => {
         <h2>LOGO</h2>
       </div>
       <ul className="menu">
-        <li>Home</li>
-        <li>Service</li>
-        <li>About</li>
+      
+        <li><Link to ="/"> Home </Link></li>
+        <li><Link to ="/services">service</Link></li>
+        <li><Link to ="/login">Login</Link></li>        
         <div className="cart" onClick={cartClicked}>
           <AiOutlineShoppingCart size={25} color="white" />
           <div className="cart-counter">
