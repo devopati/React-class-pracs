@@ -38,7 +38,7 @@ li{
     transition: .5s ease-in-out;
 }
 .cartclosed{
-    margin-left: -600px;
+    margin-left: -1000px;
     /* z-index: 0; */
 }
 .cartactive{
